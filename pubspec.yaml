@@ -1,0 +1,29 @@
+name: bol_call_voice_dialer
+description: "Bol Call - Voice Dialer, Bol Call Caller Announcer, Photo Calling, and Anti-Theft Security Suite for Android."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  speech_to_text: ^6.6.0
+  flutter_tts: ^3.8.5
+  url_launcher: ^6.2.5
+  sensors_plus: ^5.0.1
+  local_auth: ^2.1.8
+  google_mobile_ads: ^4.0.0
+  audioplayers: ^5.2.1
+  shared_preferences: ^2.2.2
+  battery_plus: ^5.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
